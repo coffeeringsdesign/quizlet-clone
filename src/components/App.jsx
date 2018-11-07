@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Header from './Header';
 import BackToSchool from './BackToSchool';
 import TermsSection from './TermsSection';
+import MissionStatement from './MissionStatement';
 
 function App(){
   return (
@@ -11,6 +12,7 @@ function App(){
       <Header/>
       <BackToSchool/>
       <TermsSection/>
+      <MissionStatement/>
     </div>
   );
 }
