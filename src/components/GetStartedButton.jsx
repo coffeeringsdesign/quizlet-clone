@@ -8,7 +8,6 @@ function GetStartedButton() {
     textAlign: 'center',
     width: '325px',
     fontSize: '18px',
-    marginLeft: 'auto',
     marginTop: '28px',
     letterSpacing: '1px'
   }

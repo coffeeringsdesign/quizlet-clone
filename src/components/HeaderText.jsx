@@ -19,11 +19,17 @@ function HeaderText() {
   const headerParagraphStyles = {
     lineHeight: '1.7'
   }
+  const getStartedButton = {
+    display: 'flex',
+    flexDirection: 'row-reverse'
+  }
   return(
     <div style={headerTextStyles}>
       <h1 style={headlineStyles}>Simple tools for learning anything.</h1>
       <p style={headerParagraphStyles}>Search millions of study sets or create your own. Improve your grades by studying with flashcards, games and more.</p>
-      <GetStartedButton/>
+      <div style={getStartedButton}>
+        <GetStartedButton/>
+      </div>
     </div>
   );
 }
