@@ -17,7 +17,8 @@ function Terms(props) {
     paddingBottom: '15px'
   }
   const pictureStyles = {
-    width: '100%'
+    width: '100%',
+    marginBottom: '10px'
   }
   const detailInformationDiv = {
     display: 'flex',
@@ -26,12 +27,15 @@ function Terms(props) {
     alignItems: 'center',
     width: '80%',
     marginBottom: '6px',
-    padding: '10px'
+    paddingLeft: '10px',
+    paddingRight: '10px',
+    paddingBottom: '10px'
   }
   const authorNameStyles = {
     fontSize: '.875rem',
     color: '#3ccfcf',
-    marginLeft: '10px'
+    marginLeft: '10px',
+    paddingRight: '10px'
   }
   const termsNumberStyles = {
     fontSize: '.875rem',
@@ -43,7 +47,8 @@ function Terms(props) {
     alignItems: 'center'
   }
   const profilePicStyles = {
-    borderRadius: '50%'
+    borderRadius: '50%',
+    width: '25px'
   }
   const statusStyles = {
     fontSize: '.7rem',
