@@ -14,6 +14,7 @@ function Terms(props) {
   const termTitleStyles = {
     color: '#455358',
     paddingLeft: '15px',
+    paddingRight: '15px',
     paddingBottom: '15px'
   }
   const pictureStyles = {

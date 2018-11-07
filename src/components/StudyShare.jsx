@@ -38,7 +38,7 @@ function StudyShare() {
     marginRight: '30px'
   }
   const studyHeading={
-    fontSize: '35',
+    fontSize: '35px',
     marginBottom: '10px'
   }
   const studySectionText = {
