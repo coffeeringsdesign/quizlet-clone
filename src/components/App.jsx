@@ -4,6 +4,7 @@ import Header from './Header';
 import BackToSchool from './BackToSchool';
 import TermsSection from './TermsSection';
 import MissionStatement from './MissionStatement';
+import Footer from './Footer';
 
 function App(){
   return (
@@ -13,6 +14,7 @@ function App(){
       <BackToSchool/>
       <TermsSection/>
       <MissionStatement/>
+      <Footer/>
     </div>
   );
 }
