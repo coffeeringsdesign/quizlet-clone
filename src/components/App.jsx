@@ -9,7 +9,7 @@ import Footer from './Footer';
 function App(){
   return (
     <div>
-      <Nav/>
+     <Nav/>
       <Header/>
       <BackToSchool/>
       <TermsSection/>

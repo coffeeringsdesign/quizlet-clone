@@ -59,7 +59,15 @@ function Terms(props) {
   }
 
   return(
-    <div style={termDivContainer}>
+    <div className="card-styles" style={termDivContainer}>
+      <style jsx>{`
+        .card-styles {
+          transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+        }
+        .card-styles:hover {
+          border-bottom: 4px solid #F8C238;
+        }
+      `}</style>
       <img style={pictureStyles} src={props.photo}></img>
       <div style={detailInformationDiv}>
         <p style={termsNumberStyles}>{props.terms} terms</p>

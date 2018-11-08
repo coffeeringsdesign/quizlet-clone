@@ -99,7 +99,7 @@ function TermBlock() {
     flexDirection: 'column',
     flexWrap: 'wrap',
     width: '80%',
-    height: '1850px',
+    height: '1200px',
     marginLeft: 'auto',
     marginRight: 'auto'
   }
